@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguaDetect | Language Identification Tool</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-language"></i>
+                <h1>LinguaDetect</h1>
+            </div>
+            <p class="tagline">AI-powered language identification in real-time</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="input-section">
+                    <div class="text-counter">
+                        <textarea id="text" placeholder="Enter or paste text in any language..." autofocus></textarea>
+                        <span id="char-count">0/1000</span>
+                    </div>
+                    <button type="button" onclick="predict()" class="predict-btn">
+                        <i class="fas fa-search"></i> Detect Language
+                    </button>
+                </div>
+
+                <div class="result-section" id="result-section">
+                    <div class="result-placeholder">
+                        <i class="fas fa-globe-europe"></i>
+                        <p>Your detected language will appear here</p>
+                    </div>
+                    <div class="prediction-result" id="prediction"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.facebook.com/zahidul.snigdho/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://github.com/Snigdho8869" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                </div>
+                <div class="footer-info">
+                    <p>© 2023 LinguaDetect. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
