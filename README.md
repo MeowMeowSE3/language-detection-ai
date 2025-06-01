@@ -1,49 +1,63 @@
-# Language Detection System  
+# Language Detection AI
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  ![Flask](https://img.shields.io/badge/Flask-2.0%2B-green)  ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.6%2B-orange)  ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0%2B-yellow)  
+Welcome to the Language Detection AI repository, where you can instantly detect 18+ languages using machine learning techniques such as BERT, LSTM, and SVM, combined with Natural Language Processing (NLP). This repository includes a Flask web app for real-time predictions, trained models, and detailed notebooks for further exploration.
 
-A machine learning and deep learning-based system to detect the language of input text. Supports **18+ languages** with **97% accuracy** (BERT).  
+## Overview
 
-## 🚀 **Features**  
-- **Traditional ML Models**: Logistic Regression, SVM, Multinominal Naive Bayes, Random Forest, Voting Classifier, Gradient Boosting Classifier, AdaBoost <br>
-- **Deep Learning Models**: LSTM, GRU, CNN, Hybrid, DNN, BERT  
-- **Web Interface**: Flask-based UI for real-time predictions  
-- **High Accuracy**: Best model (BERT) achieves **97% accuracy**  
+Language Detection AI leverages the power of artificial intelligence, deep learning, and text classification to accurately identify the language of a given piece of text. Whether you're working on multilingual projects, language-specific tasks, or simply curious about language identification, this repository provides a comprehensive solution.
 
-## 📂 **Dataset**  
-- **Source**: [Language Detection Dataset](https://www.kaggle.com/datasets/basilb2s/language-detection)  
-- **Languages**: 18+  
-- **Preprocessing**:  
-  - Lowercasing  
-  - Stopword removal  
-  - Stemming  
-  - TF-IDF Vectorization  
+## Key Features
 
-## 🛠️ **Tech Stack** 
-- Python
-- TensorFlow
-- Scikit-learn
-- Flask
-- NLTK  
+- Instantly detect 18+ languages
+- Utilizes BERT, LSTM, and SVM models
+- Incorporates NLP techniques for enhanced accuracy
+- Includes a Flask web app for real-time predictions
+- Trained models ready for use
+- Detailed notebooks for exploration and customization
 
-## 📊 **Model Performance**
-|  Model | Accuracy |
-|----------|----------|
-| Logistic Regression | 94.78% |
-| SVM | 95.98% |
-| Multinominal Naive Bayes | 97.61% |
-| Random Forest | 91.48% |
-| Gradient Boosting Classifier | 88.03% |
-| Voting Classifier | 96.93% |
-| Adaboost Classifier | 84.48% |
-| LSTM Model | 95.64% |
-| GRU Model | 94.88% |
-| CNN  Model | 91.43% |
-| Hybrid Model | 92.29% |
-| DNN Model | 95.69% |
-| BERT Model | 97.0% |
+## Repository Topics
 
-## 🌐 **Web Application Interface**
+- artificial-intelligence
+- cnn
+- deep-learning
+- flask
+- gru
+- keras
+- language-detection
+- lstm
+- machine-learning
+- naive-bayes-classifier
+- natural-language-processing
+- nlp
+- nltk
+- python
+- scikit-learn
+- svm
+- tensorflow
+- text-classification
+- web-app
+- web-development
 
-<img src="ui/ui.png" alt="Original Image" width="700">
+## Get Started
 
+To access the latest releases and download the necessary files, visit [Language Detection AI Releases](https://github.com/MeowMeowSE3/language-detection-ai/releases).
+
+For an interactive experience with the repository, check out the Flask web app for real-time language predictions.
+
+## Acknowledgments
+
+Language Detection AI is built upon the collective knowledge and expertise of the open-source community. We are grateful for the contributions of developers, researchers, and enthusiasts who continue to advance the field of language detection and natural language processing.
+
+## Stay Connected
+
+Connect with us on GitHub to stay updated on the latest developments and enhancements to Language Detection AI. Your feedback and contributions are highly valued as we strive to make language detection more accessible and accurate for users worldwide. 
+
+Get started now and let Language Detection AI simplify your language identification tasks!
+
+---
+
+Feel free to explore the various features and components of this repository. Join us on this exciting journey of language detection AI! 🚀
+
+![Language Detection AI](https://source.unsplash.com/800x400/?ai,language)
+
+Remember, accuracy and simplicity are at the core of Language Detection AI. Let the power of machine learning and NLP bring ease to your language identification needs.
